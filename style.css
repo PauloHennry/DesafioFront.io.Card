@@ -8,6 +8,15 @@ body{
     background-color: hsl(233, 47%, 7%);
 }
 
+strong{
+    transition: ease all 1s;
+}
+
+strong:hover{
+    color: #ca96fb;
+    transform: scale(1.5s);
+}
+
 .section1{
     display: flex;
     margin: 80px 0px 0px 50px;

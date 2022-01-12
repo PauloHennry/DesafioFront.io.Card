@@ -1,0 +1,37 @@
+@media screen and (max-width:800px){
+    
+    .section1{
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: stretch;
+        background-color: hsl(244, 38%, 16%);
+        color: white;
+        width: 70vw;
+        height: auto;
+    }
+    .titleh1{
+        flex-wrap: wrap;
+        font-size: 4vh;
+        width: 60vw;
+        height: auto;
+    }
+    .conteiner-result{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-flow: column;
+        padding: 25px;
+        font-size: 14px;
+        font-weight: 100;
+    }
+    .titleh2{
+        margin-bottom: 14px;
+        text-align: center;
+    }
+    img{
+        width: 100%;
+        height: 100%;
+    }
+    
+
+}
